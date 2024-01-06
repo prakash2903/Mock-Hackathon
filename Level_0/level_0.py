@@ -40,7 +40,7 @@ def solve(data):
     converted_path = ['r0'] + converted_path + ['r0']
     converted_output = {"v0": {"path": converted_path}}
 
-    with open('output_0.json', 'w') as f:
+    with open('level0_output.json', 'w') as f:
         json.dump(converted_output, f)
 
     return converted_output
